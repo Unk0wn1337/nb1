@@ -4,11 +4,14 @@ package gitbranchnb;
 public class GitBranchNb {
 
     public static void main(String[] args) {
-        fv();
+        new GitBranchNb().fv();
     }
 
-    private static void fv() {
-        System.out.println("Static fv");
+    private  void fv() {
+        System.out.println("nem static fv");
     }
     
+    void eljaras(){
+        
+    }
 }
